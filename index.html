@@ -1,0 +1,23 @@
+---
+layout: page
+title: Najnovšie príspevky
+description: "Myslíte si, že niečo nefunguje tak ako by malo? Možno spolu dokážeme nájsť riešenie, ktoré bude lepšie."
+headline: "Myslíte si, že niečo nefunguje tak ako by malo? Možno spolu dokážeme nájsť riešenie, ktoré bude lepšie."
+tags: [Banská Bystrica, riešenia, blog]
+sharethis: true
+image:
+  feature: Home_h.jpg
+  credit: Kresby Kristianko Belopotočan, 2013 - Dúhová jaskyňa s bleskami, Slovenská vlajka, Les
+  creditlink: https://www.flickr.com/photos/belonet/sets/72157643281223573/
+---
+
+
+<h2>Najnovšie príspevky</h2>
+
+<ul class="post-list">
+{% for post in site.posts limit:10 %} 
+  <li><article><a href="{{ site.url }}{{ post.url }}">{{ post.title }} <span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time></span></a></article></li>
+{% endfor %}
+</ul>
+
+<br><br><br>

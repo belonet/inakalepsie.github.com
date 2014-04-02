@@ -1,0 +1,84 @@
+title:            Inak a lepšie
+description:      Myslíte si, že niečo nefunguje tak ako by malo? Možno spolu dokážeme nájsť riešenie, ktoré bude lepšie.
+logo:             Inak_a_lepsie_logo3.jpg
+disqus_shortname: inakalepsie
+search:           true
+#url:              http://localhost:4000
+url:              http://inakalepsie.github.io/
+
+sharethis: true
+
+# Owner/author information
+owner:
+  name:           Patrik Belopotočan
+  avatar:         bio2.jpg
+#	  avatar:         InakLepsie_bio.jpg
+  bio:            "Kto som? Len ďalší z tých čo sa radi zaujímajú o nové veci a radi experimentujú. Ak nie som práve s rodinou, v prírode alebo v práci, venujem sa veciam súvisejúcim s vývojom webových aplikacií."
+  email:          p.belopotocan@gmail.com
+  # Social networking links are used in author-bio sidebar. Update and remove as you like.
+  twitter:        
+  facebook:  inakalepsie     
+#  github:  inakalepsie       
+  github: 
+  stackoverflow: 
+  linkedin:       
+  instagram:      
+  lastfm:         
+  tumblr: 
+  pinterest: 
+  foursquare: 
+  steam: 
+  dribbble: 
+  # For Google Authorship https://plus.google.com/authorship
+  google_plus: u/0/b/106545627023746160738/106545627023746160738
+
+# Analytics and webmaster tools stuff goes here
+google_analytics:   
+google_verify:      
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+bing_verify: 
+
+
+
+# Links to include in top navigation
+# For external links add external: true
+links:
+  - title: O nás
+    url: /about/
+  - title: Kontakt
+    url: /contact/
+  - title: Otázky/odpovede
+    url: /faq/
+  - title: Príspevky
+    url: /articles/
+#  - title: Theme Setup
+#    url: /theme-setup/
+#   - title: Made Mistakes
+#     url: http://mademistakes.com
+#     external: true
+
+# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone:    Europe/Bratislava
+future:      true
+pygments:    true
+markdown:    kramdown
+
+# https://github.com/mojombo/jekyll/wiki/Permalinks
+permalink:   /:categories/:title/
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  use_coderay: false
+
+  coderay:
+    coderay_line_numbers: 
+    coderay_line_numbers_start: 1
+    coderay_tab_width: 4
+    coderay_bold_every: 10
+    coderay_css: class
+
+include: [".htaccess"]
+exclude: ["lib", "config.rb", "Gemfile", "Capfile", "Gemfile.lock", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]

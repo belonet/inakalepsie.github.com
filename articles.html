@@ -1,0 +1,16 @@
+---
+layout: page
+permalink: /articles/
+title: Príspevky
+description: "Archív príspevkov zoradený podľa dátumu"
+image:
+  feature: HeaderKontakt.jpg
+  credit: Kresby Kristianko Belopotočan, 2013-2014 - Kopec, Šikmá veža, Domík Belopotočan, 2013 - Dovolenka Maďarsko
+  creditlink: https://www.flickr.com/photos/belonet/sets/72157643281223573/
+---
+
+<ul class="post-list">
+{% for post in site.posts %} 
+  <li><article><a href="{{ site.url }}{{ post.url }}">{{ post.title }} <span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time></span></a></article></li>
+{% endfor %}
+</ul>

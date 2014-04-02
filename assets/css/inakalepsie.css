@@ -1,0 +1,126 @@
+.clear { 
+    clear:both; 
+}
+div#sticker section#table-of-contents.toc {
+    padding:20px;
+    margin:20px 0;
+    background:#AAA;
+    width:190px;
+}
+.stick {
+    position:fixed;
+    top:0px;
+    color: #00FFFF;
+}
+#sharethis {
+    margin:20px 0;
+}
+
+
+.article-author-side {
+    background-image: url(../../images/slnko400x400g.jpg);
+}
+
+
+.btn-fb {
+color: #fff;
+background-color: #308cbc;
+border-color: #308cbc;
+border: 2px solid #308cbc!important;
+-webkit-border-radius: 20px;
+-moz-border-radius: 20px;
+}
+
+.btn-gplus {
+color: #fff;
+background-color: #c64537;
+border-color: #c64537;
+border: 2px solid #c64537!important;
+-webkit-border-radius: 20px;
+-moz-border-radius: 20px;
+}
+
+.btn-success {
+color: #fff;
+background-color: #5cb85c;
+border-color: #5cb85c;
+border: 2px solid #5cb85c!important;
+-webkit-border-radius: 20px;
+-moz-border-radius: 20px;
+}
+
+
+.toc {
+position: absolute;
+top: 5.5em;
+right: 0;
+display: block;
+display: inline;
+float: left;
+width: 16.666666666666668%;
+margin-right: 4.166666666666667%;
+margin-left: 4.166666666666667%;
+background-color: #fff;
+}
+
+.toc h3 {
+    color: #FFFFFF;
+    font-size: 1rem;
+    margin: 0;
+    padding: 5px 10px;
+    text-transform: uppercase;
+}
+
+
+.toc header {
+    background: none repeat scroll 0 0 #2B2B2B;
+}
+
+.toc li a {
+    background: none repeat scroll 0 0 #5E5E5E;
+    border-bottom-width: 0;
+    color: #FFFFFF;
+    display: block;
+    opacity: 0.7;
+    padding: 10px;
+    transition: opacity 0.2s ease-in-out 0s;
+    
+}
+
+.toc li:last-child {
+    border-bottom-width: 0;
+}
+.toc li {
+    display: block;
+    font-family: 'PT Sans Narrow',sans-serif;
+    list-style-type: none;
+    margin: 0 0 1px;
+    padding: 0;
+}
+
+.toc ul {
+    line-height: 1;
+    margin: 2px 0 0;
+    padding: 0;
+}
+.toc {
+    font-size: 65%;
+}
+
+div.entry-meta {
+	z-index: -100;	
+	}
+	
+.m_hidden {
+	visibility:	hidden;
+}.m_visible {
+	visibility:	visible;
+}
+
+section.toc h3:hover {
+    cursor: pointer;
+}
+
+.entry-title {
+    font-size: 3.25rem;
+}
