@@ -4,7 +4,7 @@ logo:             Inak_a_lepsie_logo3.jpg
 disqus_shortname: inakalepsie
 search:           true
 #url:              http://localhost:4000
-url:              http://inakalepsie.github.io/
+url:              http://inakalepsie.github.io
 
 sharethis: true
 
