@@ -23,13 +23,13 @@ image:
 </div>
 </section><!-- /#table-of-contents -->
 
-V príspevku [Krátke info o tom ako vznikal web Inak a lepšie](/o-webe/) som načrtol aké technologie a služby som použil pri vytváraní tohto webu.
+V príspevku [Krátke info o tom ako vznikal web Inak a lepšie](/o-webe/) som načrtol aké technólogie a služby som použil pri vytváraní tohto webu.
 
-Možno by niekoho zaujímali aj detaily a rád by si vytvoril niečo podobné, svoje ale nevie ako. Preto som sa rozhodol, že spravím krátky "How to" ako si vytvoriť web podobný totu čo tu práve čítate:-)
+Možno by niekoho zaujímali aj detaily a rád by si vytvoril niečo podobné, svoje ale nevie ako. Preto som sa rozhodol, že spravím krátky "How to" ako si vytvoriť web podobný tomu čo tu práve čítate:-)
 
 ## Na úvod
 
-[Jekyll](http://jekyllrb.com/) je framework, ktorý umožňuje pretransformovať plain text do statickej webovej stránky, blogu. 
+[Jekyll](http://jekyllrb.com/) je framework, ktorý umožňuje pretransformovať plain text do statickej webovej stránky, blogu a ten je aj základom celého riešenia.
  
 Pre jednoduchosť a možnosť ísť "krok za krokom" podľa tohto "how to" som sa rozhodol, že pre inštaláciu použijem službu [koding.com](https://koding.com/R/pbelopotocan) s nainštalovaným Ubuntu 13.04. (samozrejme, kto chce ten si to može všetko nainštalovať priamo na svoje PC, ale pravdu povediac tá virtulána mašina má svoje výhody a nie je ich málo.:-))
 
@@ -43,19 +43,19 @@ Pre samotnú inštaláciu Jekyll-u je nutné mať na systéme nainštalované:
 
 Ruby - podporované OS platformy - Linux/UNIX , OS X, Windows 
  
-samozrejme je možne nainštalovať si balíček Ruby alebo priamo skompilovať zdrojáky, možnosti je veľa, odporúčam pozrie ich oficiálnu stránku: [Ruby downloads](https://www.ruby-lang.org/en/downloads/) 
+Samozrejme, že je možne nainštalovať si balíček Ruby alebo priamo skompilovať zdrojáky, možnosti je veľa, odporúčam pozrieť si ich oficiálnu stránku: [Ruby downloads](https://www.ruby-lang.org/en/downloads/) 
  
-pre môj systém to je: 
+Pre môj systém nainštalujeme Ruby nasledovné: 
  
 {% highlight bash %}
 belo2@vm-0:~$ sudo apt-get install ruby 
 {% endhighlight %}
 
  
-v prípade systému na [koding.com](https://koding.com/R/pbelopotocan), túto inštaláciu môžete preskočiť, ruby je predinštalované 
+V prípade systému na [koding.com](https://koding.com/R/pbelopotocan), túto inštaláciu môžete preskočiť, pretože ruby je predinštalované. 
  
 {% highlight bash %}
-belo2@vm-0:~$ ruby --version  d
+belo2@vm-0:~$ ruby --version  
 ruby 1.9.3p194 (2012-04-20 revision 35410) [x86_64-linux] 
 {% endhighlight %}
 
@@ -65,15 +65,15 @@ RubyGems - package management framework pre Ruby.
 
 Ak je potreba inštalácie postup je jednoduchý, viď [RubyGems download](http://rubygems.org/pages/download)
  
-v mojom prípade opäť predinštalované 
+V mojom prípade je RubyGem opäť predinštalované 
 {% highlight bash %}
 belo2@vm-0:~$ gem --version 
-1.8.23 
+1.8.23
 {% endhighlight %}
 
 
 ### Inštalácia Jekyll
-Po úspešných inštaláciach z Ruby a RubyGem nainštalujem jekyll prostredníctvom RubyGem 
+Po úspešných inštaláciach Ruby a RubyGem nainštalujem Jekyll prostredníctvom RubyGem 
  
 {% highlight bash %}
 belo2@vm-0:~$ sudo gem install jekyll 
@@ -177,7 +177,7 @@ Installing RDoc documentation for jekyll-1.5.1...
 {% endhighlight %} 
 
 
-Ak sa počas inštalacie neobjavili žiadne chyby s inštaláciou sme hotový:-)
+Ak sa počas inštalacie neobjavili žiadne chyby s inštaláciou sme hotoví:-)
 
 Pre kontrolu si možeme dať vypísať verziu práve nainštalovaného Jekyll.
 {% highlight bash %}
@@ -185,6 +185,11 @@ belo2@vm-0:~$ jekyll --version
 jekyll 1.5.1
 {% endhighlight %}
 
+Na záver ešte nainštalujeme jednu knižnicu, ktorú jekyll používa pre Markdown
+
+{% highlight bash %}
+gem install kramdown
+{% endhighlight %}
 
 
 ## Prvá web stránka
@@ -217,10 +222,10 @@ Hello world
 belo2@vm-0:~/helloworld vi index.html
 {% endhighlight %}
 
-(po "odklepnutí" príkazu sa vo vi prepneme do režimu "vkladania" napísaním "i", následne vložíme skopirovaný html text, ak sme skončili klikneme na ESC a následne súbor uložíme cez ":wq!" alebo SHIFT ZZ)
+(po "odklepnutí" príkazu sa v editore vi prepneme do režimu "vkladania" napísaním "**i**", následne vložíme skopirovaný html text. Ak sme skončili stlačíme klávesu ESC a následne súbor uložíme cez "**:wq!**" alebo **SHIFT ZZ**)
 
 
-Týmto sme dospeli k záverečnemú kroku. V adresati, kde sme vytvorili súbor index.html spustíme príkaz:
+Týmto sme dospeli k záverečnemú kroku. V adresati kde sme vytvorili súbor index.html spustíme príkaz:
 
 {% highlight bash %}
 belo2@vm-0:~/helloworld jekyll serve --watch
@@ -237,7 +242,7 @@ Configuration file: none
 Teraz už len zadať do webového prehliadača URL: **http://belo2.kd.io:4000/**
 (samozrejme belo2 nahradiť svojim vlastným užívatelským menom) a mala by sa vám objaviť jednoduchá úvodná web stránka.
 
-Vyššie spomínaný príkaz **jekyll serve --watch** zabezpečí, že po každej zmene Jekyll aktualizuje obsah. 
+Vyššie spomínaný príkaz **jekyll serve --watch** zabezpečí, že po každej zmene v pracovnom adresári Jekyll aktualizuje obsah, takže znovunačítanim stránky vidíte zrealizované zmeny.
 
 To je nateraz všetko, veľa šťastia pri experimentovaní.:-)
 

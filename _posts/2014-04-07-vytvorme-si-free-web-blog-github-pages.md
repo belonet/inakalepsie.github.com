@@ -194,6 +194,7 @@ curl -XPOST -H 'Authorization: token TVOJ_TOKEN' https://api.github.com/user/rep
 
 
 
+<a name="github"></a>
 
 ## Vytvorenie projektovej stránky na github
 
@@ -230,7 +231,7 @@ git branch -d  master
 
 Po niekoľkých minútach je naša stránka dostupná na adrese: **http://GITHUB_USER_NAME.github.io/REPOSITORY**
 
-## Vytvorenie organizačnej stránky na github
+## Vytvorenie stránky organizácie na github
 
 V tomto prípade je nutné vytvoriť repozitár s názvom **GITHUB_USER_NAME.github.io**
 
