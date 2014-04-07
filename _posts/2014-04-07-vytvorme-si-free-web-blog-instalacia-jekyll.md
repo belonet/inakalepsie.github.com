@@ -2,7 +2,7 @@
 layout: post
 title: "Vytvorme si web: 1. inštalácia Jekyll"
 description: "O tom ako rýchlo a jednoducho vytvoriť statický web bez finančných nákladov: 1. inštalácia Jekyll"
-modified: 2014-04-07
+modified: 2014-04-06
 tags: [Inak a lepšie, technológie, jekyll, github]
 comments: true
 share: true
