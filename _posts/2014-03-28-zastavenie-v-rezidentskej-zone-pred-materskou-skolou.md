@@ -26,7 +26,7 @@ image:
 
 ## Slovo na úvod
 
-Pred pár dňami som bol konfrontovaný príslušníkmi mestskej polície ohľadom zastavenia v rezidentskej zóne pri Materskej škole 29. augusta. Jednalo sa o chvíľu, kedy som chcel ísť zaviesť syna do škôly, maximálne 10 minút. Predpokládam, že niečo podobné ste zažili už aj vy.
+Pred pár dňami som bol konfrontovaný príslušníkmi mestskej polície ohľadom zastavenia v rezidentskej zóne pri Materskej škole 29. augusta. Jednalo sa o chvíľu, kedy som chcel ísť zaviesť syna do škôlky, maximálne 10 minút. Predpokládam, že niečo podobné ste zažili už aj vy.
 
 Po tejto nepríjemnej skúsenosti som sa rozhodol, že oslovím zodpovedných, či by sa v tejto konkrétnej veci <b>"Zastavenie vozidla v rezidenskej zóne pre potrebu odovzdania a vyzdvihnutia dieťaťa do/z materskej škôlky"</b> naozaj nedalo pre rodičov spraviť niečo viac ako len perzekuovať a vyberať pokuty
 
