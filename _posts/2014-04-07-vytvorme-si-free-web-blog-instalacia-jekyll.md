@@ -23,7 +23,7 @@ image:
 </div>
 </section><!-- /#table-of-contents -->
 
-V príspevku [Krátke info o tom ako vznikal web Inak a lepšie](/o-webe/) som načrtol aké technologie a služby som použil pri vytváran9 tohto webu.
+V príspevku [Krátke info o tom ako vznikal web Inak a lepšie](/o-webe/) som načrtol aké technologie a služby som použil pri vytváraní tohto webu.
 
 Možno by niekoho zaujímali aj detaily a rád by si vytvoril niečo podobné, svoje ale nevie ako. Preto som sa rozhodol, že spravím krátky "How to" ako si vytvoriť web podobný totu čo tu práve čítate:-)
 
@@ -235,9 +235,14 @@ Configuration file: none
 
 
 Teraz už len zadať do webového prehliadača URL: **http://belo2.kd.io:4000/**
-(samozrejme belo2 nahradiť svojim vlastným užívatelským menom)
+(samozrejme belo2 nahradiť svojim vlastným užívatelským menom) a mala by sa vám objaviť jednoduchá úvodná web stránka.
 
-V ďaľšom dieli si ukážeme ako si umiestniť svoj web na službe [Github](http://www.github.com).
+Vyššie spomínaný príkaz **jekyll serve --watch** zabezpečí, že po každej zmene Jekyll aktualizuje obsah. 
+
+To je nateraz všetko, veľa šťastia pri experimentovaní.:-)
+
+
+V [ďaľšom dieli](/vytvorme-si-free-web-blog-github-pages/) si ukážeme ako si umiestniť svoj web na službe [Github](/vytvorme-si-free-web-blog-github-pages/).
  
 <br><br>  
 
