@@ -2,7 +2,7 @@
 layout: post
 title: "Vytvorme si web: 2. Nahranie webu na Github"
 description: "O tom ako rýchlo a jednoducho vytvoriť statický web bez finančných nákladov: 2. Nahranie webu na Github"
-modified: 2014-04-07
+modified: 2014-04-08
 tags: [Inak a lepšie, technológie, jekyll, github]
 comments: true
 share: true
