@@ -33,6 +33,8 @@ Možno by niekoho zaujímali aj detaily a rád by si vytvoril niečo podobné, s
  
 Pre jednoduchosť a možnosť ísť "krok za krokom" podľa tohto "how to" som sa rozhodol, že pre inštaláciu použijem službu [koding.com](https://koding.com/R/pbelopotocan) s nainštalovaným Ubuntu 13.04. (samozrejme, kto chce ten si to može všetko nainštalovať priamo na svoje PC, ale pravdu povediac tá virtulána mašina má svoje výhody a nie je ich málo.:-))
 
+Ak by ste mali problem s registráciou na [koding.com](https://koding.com/R/pbelopotocan) pripravil som pre vás príspevok s názvom [Vytvorme si web: 4. Virtuálna mašina na Koding.com](/vytvorme-si-free-web-blog-koding/)
+{: .notice}
 
 Pre samotnú inštaláciu Jekyll-u je nutné mať na systéme nainštalované: 
 

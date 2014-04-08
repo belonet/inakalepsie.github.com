@@ -201,7 +201,7 @@ curl -XPOST -H 'Authorization: token TVOJ_TOKEN' https://api.github.com/user/rep
 Ak máme vytvorený repozitár, vytvorenie projektovej stránky (názov repozitára = projekt) je len otázka niekolkých minút.
 Poďme na to:
 
-Mali by sme byť v adresári **~/helloworld** kde smi si pred chvílkou vytvorili našu prvú str8nku. Ak tam nie sme zadáme príkaz
+Mali by sme byť v adresári **~/helloworld** kde smi si pred chvílkou vytvorili našu prvú stránku. Ak tam nie sme zadáme príkaz
 
 {% highlight bash %}cd ~/helloworld{% endhighlight %}
 
@@ -248,7 +248,7 @@ git push -u origin master
 {% endhighlight %}
 
 
-A sme hotoví, naša web stránka je dostupná na adrese **http://GITHUB_USER_NAME.github.io** (treba byť trpezlivý uvodné zobrazenie trva nejaku tu minutku, ďalšie zmeny sú už takmer okamžité)
+A sme hotoví, naša web stránka je dostupná na adrese **http://GITHUB_USER_NAME.github.io** (treba byť trpezlivý uvodné zobrazenie trvá nejakú tú minútku, ďalšie zmeny sú už takmer okamžité)
 
 V ďaľšom dieli si ukážeme ako si vytvoriť niečo zložitejšie ako je len "Hello World" stránka:-)
  
