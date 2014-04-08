@@ -33,7 +33,7 @@ owner:
   google_plus: u/0/b/106545627023746160738/106545627023746160738
 
 # Analytics and webmaster tools stuff goes here
-google_analytics:   
+google_analytics: UA-3901628-7   
 google_verify:      
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
 bing_verify: 
