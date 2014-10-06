@@ -48,9 +48,15 @@ Ruby - podporované OS platformy - Linux/UNIX , OS X, Windows
 Samozrejme, že je možne nainštalovať si balíček Ruby alebo priamo skompilovať zdrojáky, možnosti je veľa, odporúčam pozrieť si ich oficiálnu stránku: [Ruby downloads](https://www.ruby-lang.org/en/downloads/) 
  
 Pre môj systém nainštalujeme Ruby nasledovné: 
+
+*UPDATE*: vo verzii Ubuntu 14.04, ktorá aktuálne na koding.com beží (október 2014) traba nainstalovať aj make, (viacej tu [Install Jekyll 2 on Ubuntu 14.04](http://michaelchelen.net/81fa/install-jekyll-2-ubuntu-14-04/) ), teda:
+{: .notice}
+{% highlight bash %}
+belo2@vm-0:~$ sudo apt-get install ruby ruby-dev make
+{% endhighlight %}
  
 {% highlight bash %}
-belo2@vm-0:~$ sudo apt-get install ruby 
+belo2@vm-0:~$ sudo apt-get install ruby ruby-dev make
 {% endhighlight %}
 
  
@@ -76,7 +82,7 @@ belo2@vm-0:~$ gem --version
 
 ### Inštalácia Jekyll
 Po úspešných inštaláciach Ruby a RubyGem nainštalujem Jekyll prostredníctvom RubyGem 
- 
+
 {% highlight bash %}
 belo2@vm-0:~$ sudo gem install jekyll 
 Fetching: liquid-2.5.5.gem (100%) 
@@ -241,8 +247,8 @@ Configuration file: none
 {% endhighlight %}
 
 
-Teraz už len zadať do webového prehliadača URL: **http://belo2.kd.io:4000/**
-(samozrejme belo2 nahradiť svojim vlastným užívatelským menom) a mala by sa vám objaviť jednoduchá úvodná web stránka.
+Teraz už len zadať do webového prehliadača URL: **http://ubkka4912be9.belo2.kd.io:4000/**
+(samozrejme belo2 nahradiť svojim vlastným užívatelským menom, pristupovú URI nájdete aj po kliknuti na vašu virtualnu mašinu VMS) a mala by sa vám objaviť jednoduchá úvodná web stránka.
 
 Vyššie spomínaný príkaz **jekyll serve --watch** zabezpečí, že po každej zmene v pracovnom adresári Jekyll aktualizuje obsah, takže znovunačítanim stránky vidíte zrealizované zmeny.
 
